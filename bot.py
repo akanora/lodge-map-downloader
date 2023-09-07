@@ -26,7 +26,6 @@ MAPS_FOLDER = cfg["maps_folder"]
 # discord related
 ADMIN_IDS = cfg["admin_ids"]
 THUMBNAIL = cfg["thumbnail"]
-MAPS_CHANNEL = int(cfg["maps_channel"])
 
 bot = commands.Bot(command_prefix=PREFIX)
 
@@ -76,7 +75,7 @@ async def downloadmap(ctx, arg):
                 os.remove(f"{MAPS_FOLDER}/{fastdlme_file}")
                 embed.description = f"Successfully added **{mapname}**."
                 await msg.edit(embed=embed)
-                
+
     else:
         map_not_found += 1
         if map_not_found == 4:

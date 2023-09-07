@@ -1,0 +1,11 @@
+{
+    "token" :           "",
+    "prefix":           "!",
+
+    "server_ip":        "XXX.XXX.XXX.XXX",
+    "server_port":      "XXXXX",
+    "maps_folder":      "/home/cssserver/serverfiles/cstrike/maps/ - example", 
+
+    "admin_ids":        ["1111111111111111111", "2222222222222222222"],
+    "thumbnail":        "https://cdn.discordapp.com/attachments/800078258241667092/961964994893860914/unknown.png"
+}
